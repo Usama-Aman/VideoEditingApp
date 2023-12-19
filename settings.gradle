@@ -1,0 +1,10 @@
+include ':AXVideoTimelineView'
+include ':videcrop'
+include ':pix'
+include ':photoeditor'
+include ':filepicker'
+include ':sticker'
+include ':video-editor'
+include ':sample-app'
+include ':app'
+rootProject.name = "Screen Recording App"

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuMergeVideos"
+        android:icon="@drawable/ic_merge_black"
+        android:title="Merge Videos" />
+    <item
+        android:id="@+id/menuClearFormatting"
+        android:icon="@drawable/ic_clear_all_black"
+        android:title="Clear Formatting" />
+
+    <item
+        android:id="@+id/menuHideShowRuler"
+        android:icon="@drawable/ic_ruler"
+        android:title="Show Ruler" />
+
+    <item
+        android:id="@+id/menuDeleteVideo"
+        android:icon="@drawable/ic_delete_black"
+        android:title="Delete Video" />
+
+    <item
+        android:id="@+id/menuCancel"
+        android:icon="@drawable/ic_pop_menu_cross"
+        android:title="Cancel" />
+
+
+</menu>

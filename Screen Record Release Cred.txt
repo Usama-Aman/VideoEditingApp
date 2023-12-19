@@ -1,0 +1,11 @@
+Screen Recording release :
+
+Key Name  : key0 
+Password  : elementary
+
+keystore password : elementary 
+
+
+
+Link for how to setup google account for in app 
+https://learn.buildfire.com/en/articles/499662-how-to-set-up-your-account-for-in-app-purchases-in-your-google-developer-account-for-android

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1039111767855",
+    "project_id": "yourmerge-e6f56",
+    "storage_bucket": "yourmerge-e6f56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039111767855:android:e3deaad82c4ed49b6f83da",
+        "android_client_info": {
+          "package_name": "com.elementary.youmerge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039111767855-uug96qj0jcgg1hophl59ufe0nevn9b6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDov4F4MkHqcTBP8VlO_KSkNiwSSoHeitc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039111767855-uug96qj0jcgg1hophl59ufe0nevn9b6t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1039111767855-ccpfa7mj551lgon1qhtaq0v628c3l2vp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.elementary.youmerge"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

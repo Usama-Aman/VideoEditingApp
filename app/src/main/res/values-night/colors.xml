@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appColor">#399CFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="selectedItem">#CCffffff</color>
+    <color name="blurryBlack">#1f1f1f</color>
+    <color name="transparent">#00000000</color>
+    <color name="disableGrey">#cccccc</color>
+
+    <color name="appBackground">#161616</color>
+    <color name="textColorDarkWhite">#ffffff</color>
+    <color name="red">#FF0000</color>
+
+    <array name="colorSeekBar">
+        <item>#00FF0000</item>
+        <item>#FF0000</item>
+        <item>#FFEB3B</item>
+        <item>#12a343</item>
+        <item>#00B0FF</item>
+        <item>#D500F9</item>
+        <item>#8D6E63</item>
+        <item>#ffffff</item>
+        <item>#000000</item>
+    </array>
+
+</resources>

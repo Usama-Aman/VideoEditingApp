@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:rsb="http://schemas.android.com/tools"
+    android:id="@+id/trimmerItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/btnPlayPause"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/play_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/verticalRulerGuideline"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/photoEditorView"
+            app:layout_constraintLeft_toLeftOf="@id/photoEditorView"
+            app:layout_constraintRight_toRightOf="@id/photoEditorView"
+            app:layout_constraintTop_toTopOf="@id/photoEditorView" />
+
+        <View
+            android:id="@+id/horizontalRulerGuideline"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/red"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/photoEditorView"
+            app:layout_constraintLeft_toLeftOf="@id/photoEditorView"
+            app:layout_constraintRight_toRightOf="@id/photoEditorView"
+            app:layout_constraintTop_toTopOf="@id/photoEditorView" />
+
+        <ja.burhanrashid52.photoeditor.PhotoEditorView
+            android:id="@+id/photoEditorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/videoView"
+            app:layout_constraintLeft_toLeftOf="@id/videoView"
+            app:layout_constraintRight_toRightOf="@id/videoView"
+            app:layout_constraintTop_toTopOf="@id/videoView"
+            app:photo_src="@drawable/bg_transparent" />
+
+        <ImageView
+            android:id="@+id/ivRulerTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="@id/videoView"
+            app:layout_constraintRight_toRightOf="@id/videoView"
+            app:layout_constraintTop_toTopOf="@id/videoView" />
+
+
+        <ImageView
+            android:id="@+id/ivRulerLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/videoView"
+            app:layout_constraintLeft_toLeftOf="@id/videoView"
+            app:layout_constraintTop_toTopOf="@id/videoView" />
+
+        <TextView
+            android:id="@+id/toolTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tooltip_drawable"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:paddingStart="@dimen/_2sdp"
+            android:paddingEnd="@dimen/_2sdp"
+            android:paddingBottom="@dimen/_2sdp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/videoView"
+            app:layout_constraintLeft_toLeftOf="@id/videoView"
+            app:layout_constraintRight_toRightOf="@id/videoView"
+            app:layout_constraintTop_toTopOf="@id/videoView"
+            rsb:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/timeLineFrame"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00ffffff">
+
+                <com.video.trimmer.view.TimeLineView
+                    android:id="@+id/timeLineVie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>
+
+            <SeekBar
+                android:id="@+id/videoSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:max="1000"
+                android:progressDrawable="@android:color/transparent"
+                android:secondaryProgress="0"
+                android:thumb="@drawable/seek_line" />
+
+            <com.video.trimmer.view.RangeSeekBarView
+                android:id="@+id/timeLineBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filtersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

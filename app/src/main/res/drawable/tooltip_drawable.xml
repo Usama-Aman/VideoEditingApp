@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+    <item
+        android:width="12dp"
+        android:height="12dp"
+        android:gravity="bottom|center_horizontal">
+        <rotate
+            android:fromDegrees="45"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:bottomRightRadius="2dp" />
+                <solid android:color="@color/appColor" />
+            </shape>
+
+        </rotate>
+    </item>
+
+    <item
+        android:width="@dimen/_120sdp"
+        android:height="@dimen/_36sdp"
+        android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+            <solid android:color="@color/appColor" />
+        </shape>
+
+    </item>
+
+
+</layer-list>
+

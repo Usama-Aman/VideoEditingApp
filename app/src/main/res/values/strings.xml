@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">YouMergeIt</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="label_permissions" translatable="false">Please enable Microphone and Storage permissions.</string>
+    <string name="goProText" translatable="false">It\'s totally free. To unlock the full features of this app please click the below "Go Pro" button and you will be given full access to its features. There is no further information is needed for this as it is totally free. </string>
+</resources>

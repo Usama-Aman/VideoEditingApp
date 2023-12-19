@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/allVideos"
+        android:icon="@drawable/ic_recorded"
+        android:title="RECORDED" />
+    <item
+        android:id="@+id/myVideos"
+        android:icon="@drawable/ic_my_videos"
+        android:title="MY VIDEOS" />
+
+    <item
+        android:id="@+id/empty"
+        android:enabled="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="SETTINGS" />
+
+    <item
+        android:id="@+id/goPro"
+        android:icon="@drawable/ic_go_pro"
+        android:title="GO PRO" />
+
+
+</menu>

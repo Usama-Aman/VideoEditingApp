@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ScreenRecordingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/appColor</item>
+        <item name="colorPrimaryVariant">@color/textColorDarkWhite</item>
+        <item name="colorOnPrimary">@color/appColor</item>
+        <item name="colorPrimaryDark">@color/textColorDarkWhite</item>
+        <item name="colorOnSecondary">@color/white</item>
+<!--        <item name="android:windowDisablePreview">true</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+    </style>
+</resources>
