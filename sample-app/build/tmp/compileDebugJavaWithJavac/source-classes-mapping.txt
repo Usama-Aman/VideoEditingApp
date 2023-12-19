@@ -1,0 +1,2 @@
+com/video/sample/BuildConfig.java
+ com.video.sample.BuildConfig

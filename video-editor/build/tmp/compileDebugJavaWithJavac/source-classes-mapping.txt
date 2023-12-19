@@ -1,0 +1,2 @@
+com/video/trimmer/BuildConfig.java
+ com.video.trimmer.BuildConfig

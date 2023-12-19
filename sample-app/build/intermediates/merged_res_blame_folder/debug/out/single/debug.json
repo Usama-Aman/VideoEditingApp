@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_trim.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\ic_trim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_progress_loading_indeterminate.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\layout\\progress_loading_indeterminate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_permissions.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\layout\\dialog_permissions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_videocam_black_24dp.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\ic_videocam_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_rounded_bg.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\dialog_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_textview_blue_round.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\textview_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_trimmer.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\layout\\activity_trimmer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_crop.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\ic_crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_progress_loading.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\layout\\progress_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_proceed_error.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\ic_proceed_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_background_button.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable-v21\\background_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cropper.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\layout\\activity_cropper.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\build\\intermediates\\res\\merged\\debug\\drawable_back_white.xml.flat",
+        "source": "C:\\Users\\Usama\\AndroidStudioProjects\\ScreenRecordingApp\\sample-app\\src\\main\\res\\drawable\\back_white.xml"
+    }
+]
